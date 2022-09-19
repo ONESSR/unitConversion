@@ -1,12 +1,13 @@
 @media screen and (max-width: 550px) {
   body {
     background-color: var(--backgroundGrey);
-    overflow: scroll;
   }
   .mobile {
     display: block;
   }
   .mainContainer {
     border-radius: 0px;
+    width: 100vw;
+    height: 100vh;
   }
 }
