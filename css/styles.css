@@ -50,7 +50,7 @@ body {
   max-width: 550px;
   border-radius: var(--borderRadius);
   overflow: hidden;
-  overflow: scroll;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .topSection {
