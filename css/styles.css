@@ -38,7 +38,6 @@ body {
   width: 100vw;
   height: 100vh;
   font-family: var(--mainFontFamily);
-  /* padding: 24px; */
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -49,8 +48,9 @@ body {
 .mainContainer {
   width: 100%;
   max-width: 550px;
+  /* border-radius: var(--borderRadius); */
+  overflow: scroll;
   border-radius: var(--borderRadius);
-  overflow: hidden;
 }
 
 .topSection {
@@ -112,6 +112,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  overflow: scroll;
 }
 
 .divContainer {
