@@ -48,7 +48,6 @@ body {
 .mainContainer {
   width: 100%;
   max-width: 550px;
-  /* border-radius: var(--borderRadius); */
   overflow: scroll;
   border-radius: var(--borderRadius);
 }
