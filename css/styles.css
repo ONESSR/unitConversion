@@ -36,7 +36,6 @@
 
 body {
   width: 100vw;
-  height: 100vh;
   font-family: var(--mainFontFamily);
   text-align: center;
   display: flex;
@@ -48,7 +47,6 @@ body {
 .mainContainer {
   width: 100%;
   max-width: 550px;
-  overflow: scroll;
   border-radius: var(--borderRadius);
 }
 
@@ -111,7 +109,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  overflow: scroll;
 }
 
 .divContainer {
