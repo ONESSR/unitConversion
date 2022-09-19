@@ -12,7 +12,7 @@ let inputValue;
 
 function getInputValue() {
   const input = document.getElementById("input");
-  inputValue = input.value;
+  inputValue = Number(input.value);
   console.log(inputValue);
   meters(inputValue);
   litres(inputValue);
