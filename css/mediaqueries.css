@@ -8,4 +8,7 @@
   .mainContainer {
     border-radius: 0px;
   }
+  .mainContainer {
+    height: 100%;
+  }
 }
