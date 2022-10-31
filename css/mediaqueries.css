@@ -12,4 +12,7 @@
   .bottomSection {
     height: 50%;
   }
+  .divContainer {
+    padding: 24px 16px;
+  }
 }
